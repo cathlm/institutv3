@@ -1,0 +1,33 @@
+<section class="section">
+    <div class="pageFormulaire">
+        <div class="container">
+            <div class="formulaire">
+                <h3>Création de votre compte</h3>
+                <form method="POST" action="/creaProfil">
+                    <div class="form-group">
+                        <input type="text" style="text-transform: uppercase;" class="form-control" name="nomSaisi" placeholder="Nom" required>
+                    </div>
+                    <div class="form-group">
+
+                        <input type="text" style="text-transform: uppercase;" class="form-control" name="prenomSaisi"
+                            placeholder="Prénom" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" style="text-transform: lowercase;" class="form-control" name="emailSaisi"
+                            placeholder="Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-control" name="telSaisi" pattern="[0-9]{10}"
+                            placeholder="Téléphone" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="password" class="form-control" name="mdpSaisi" placeholder="Mot de passe" required>
+                    </div>
+                    <div class="form-group">
+                        <button type="submit" class="btn btn-sm btn-right">S'inscrire</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>

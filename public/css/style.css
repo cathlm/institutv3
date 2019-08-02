@@ -1,0 +1,449 @@
+/* ======================================INFOS GENERALES */
+/*  couleur fuschia         rgba(183, 0, 62, 1) */
+/* nouveau fuschia #c0006b*/
+/* fuschia de maria Galland c0006b */
+
+body {
+    font-family: 'Raleway', cursive;
+}
+
+section {
+    height: 95vh;
+    padding-top: 5vh;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+h3 { 
+    font-size: 2em;
+    background-color: #c0006b;
+    color: white;
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+h5 {
+    text-align: center;
+}
+
+a {
+    color: #c0006b;
+}
+a:hover {
+    color: #c0006b;
+    font-weight: bold;
+}
+
+.formulaire {
+    width: 50%;
+    float: right;
+    padding-top: 5em;
+}
+ 
+/* ================================================BOUTON VALIDER OU LIEN */
+
+.btn {
+    color: #c0006b;
+    background-color: white;
+    font-weight: bold;
+    margin-bottom: 2em;
+    border-color:  #c0006b;
+     
+}
+
+.btn:hover {
+    color: white;
+    background-color: #c0006b;
+    border-color: white;
+}
+
+.btn-right {
+    float: right;
+}
+/* ====================================================================navbar */
+.navbar {
+    width: 100%;
+}
+
+
+.icone{
+    height: 3em;
+    width: 3em;
+    margin-right: 2em;
+ }
+
+
+/* GESTION MARGES */
+.ml-10 {
+    margin-left: 10em;
+}
+
+.mt-5 {
+    margin-top: 5em;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+    text-decoration-color: #c0006b;
+    
+} 
+
+.dropdown-toggle:hover {
+    color: white;
+} 
+
+.dropdown-item:hover {
+    background-color: #c0006b;
+    color: white;
+}
+
+.panier-img img {
+    height: 1.5em;
+} 
+
+.panier-img img:hover {
+    background-color: white;
+}
+.ml-35 {
+    padding-left: 35em;
+}
+.S-icon {
+    width: 20px;
+    height: 20px;
+    padding: 5px;
+}
+
+
+
+
+/* ===========================================================page accueil */
+.pageAccueil {
+    background-image: url("../images/fond-page/planteVerte.jpg");
+    background-attachment: fixed;
+    height: 70vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 7%;
+    align-content: center;
+}
+
+.section {
+    background-image: url("../images/fond-page/planteVerte.jpg");
+    background-attachment: fixed;
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 7%;
+
+}
+
+.pageAccueil h1 {
+    text-align: center;
+    font-size: 400%;
+}
+
+.pageAccueil img {
+    display: block;
+    margin-top: 2em;
+    margin: auto;
+}
+
+.pageAccueil p {
+    text-align: center;
+    margin-top: 3em;
+    font-weight: bold;
+}
+
+.basPage {
+    width: 100%;
+}
+.basPage img {
+    height: 160px;
+    width: 160px;
+    margin: 0 1em 0 1em;
+    /* border-radius: 1em; */
+    /* box-shadow: 2px 2px 0 white */
+}
+
+.basPage p{
+    color: white;
+}
+.rose {
+    background-color: #c0006b;
+}
+
+.zone-infos {
+    margin-left: 2em;
+}
+
+.zone-infos p {
+    text-align: center;
+}
+.map {
+    padding-left: 10em;
+    border-radius: 1em;
+ }
+
+.basPage figcaption {
+    color: white;
+    font-size: 1em;
+}
+.btn-facebook {
+    background: #3B5998;
+    border-radius: 0;
+    color: white;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #263961; 
+  }
+  .btn-facebook:link, .btn-facebook:visited {
+    color: white;
+  }
+  .btn-facebook:active, .btn-facebook:hover {
+    background: #263961;
+    color: white;
+  }
+
+.copyright {
+    color: white;
+    font-size: 0.8em;
+}
+
+.mentionsLegales p {
+    font-size: 0.8em;
+}
+.mentionsLegales h4 {
+    background-color: #c0006b;
+    color: white;
+}
+/*================================================== NOS PRESTATIONS */
+ 
+.soins .btn {
+       margin-top: 8em;
+}
+
+.col-md-1 {
+    max-width: 5%;
+}
+
+.marquesImg {
+    background-color:  #c0006b;
+    background-image: url("../images/institut/soinAmincissant.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+ 
+}
+
+
+.soinsImg {
+    background-color:  #c0006b;
+    background-image: url("../images/fondZone/visageMat.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 6em;
+}
+
+.soins img {
+     object-fit: cover;
+}
+
+.figure-caption {
+    color: black;
+    background-color: grey;
+    margin: 0 4em 0em 3em;    
+
+}
+
+
+
+.soins .btn { 
+    float: right;
+}
+    /* vertical-align: bottom;
+} */
+
+
+
+
+
+/* =====================================================PAGE CONNEXION */
+ 
+.pageFormulaire {
+    color: #c0006b;
+    font-weight: bold; 
+    background-image: url("../images/fond-page/planteVerte.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-content: center;
+    height: 95vh;
+  
+
+}
+
+
+
+
+.form-group {
+    text-align: left;
+}
+
+
+.btn-right {
+    float: right;
+}
+
+.majProfil {
+    height: 100vh;
+    width: 30em;
+}
+
+/* ===========================PRODUITS A LA VENTE AFFICHAGE CLIENTELE */
+
+.nosProduits {
+    height: 100vh;
+    padding-top: 3em;
+}
+
+
+.nosProduits h2 {
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+.nosProduits .card-text {
+    height: 6em;
+
+}
+
+
+.fa-edit {
+    color: rgb(236, 147, 87);
+}
+
+.fa-trash-alt {
+    color: rgb(211, 43, 43);
+}
+
+.nouvProduit,
+.fondZone {
+    background-color: #f7e5ee;
+    padding: 2em 2em 2em 2em;
+}
+
+.fa-plus {
+    color: green;
+}
+
+
+/* =========================================AFFICHAGE PRODUITS POUR CLIENTELE */
+
+.soins img {
+    margin: auto;
+}
+.card-img-top {
+    height:190px;
+}
+
+
+/* ================================== pour Admin   TABLEAU DU STOCK */
+ 
+.stock {
+    background-color: rgb(240, 236, 238);
+}
+
+.stock h2 {
+    margin-bottom: 0;
+}
+
+.formTri {
+    float: right;
+    width: 15em;
+}
+
+.ajoutRef {
+    float: right;
+    margin-right: -1em;
+    margin: 1em 0 2em 0;
+}
+
+.badge-rouge {
+    color: black;
+    background-color: rgba(255, 0, 0, 0.493);
+}
+
+.badge-orange {
+    color: black;
+    background-color: rgba(255, 166, 0, 0.493);
+}
+
+.badge-vert {
+    color: black;
+    background-color: rgba(0, 128, 0, 0.513);
+}
+
+.pagination  {
+    float: right;
+}
+
+.pagination a {
+    color: black;
+}
+
+.pagination a:hover {
+    color: black;
+}
+/* ===========CREATION PRODUIT */
+
+.creaProduit form {
+    margin-left: 10em;
+    width: 30em;
+}
+
+/* =======CHOIX DES SOINS ET PRISE DE RDV */
+
+.card {
+    margin-right: 0.5em;
+    border-bottom-right-radius: 1em;
+    border-top-right-radius: 1em;
+    box-shadow: 3px 3px 0 grey;
+}
+
+.card img {
+    border-top-right-radius: 1em;
+}
+
+
+ 
+/* ==============pour Admin  ==============FICHIER CLIENTS */
+
+.clients {
+    height: 100vh;
+ 
+}
+
+.fa-search {
+    color: black;
+}
+.clients h2 {
+    margin-bottom: 0;
+}
+
+.clients table {
+    background-color: rgb(248, 232, 243);
+    line-height: 0.8em;
+}
+
+.searchbar {
+    float: right;
+}
+
+
+/* ===================================================PANIER DE COMMANDE */
+

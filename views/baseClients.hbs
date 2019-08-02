@@ -1,0 +1,71 @@
+      <section class="section">
+        <div class="container clients">
+          <div class="row">
+            <div class="col-md-12">
+              <h3>Clients</h3>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-md-12">
+              <div class="searchbar">
+                <form method="POST" action="/baseClients">
+                  <input class="search_input" type="text" name="nomRecherche" placeholder="Recherche par client">
+                <button type="submit" class="search_icon"><i class="fas fa-search"></i></button>
+                </form>
+              </div>
+            </div>
+          </div>
+
+          <div class="row"  >
+            <div class="col-md-12">
+              <table class="table fondZone">
+                <thead>
+                  <tr>
+                    <th  scope="col">Nom</th>
+                    <th scope="col">Prénom</th>
+                    <th scope="col">Téléphone</th>
+                    <th scope="col">Email</th>
+                    <th scope="col">Modif.</th>
+                    <th scope="col">Suppr.</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {{#if client}}
+                  {{#each client}}
+                  <tr>
+                    <td>{{this.nom}}</td>
+                    <td>{{this.prenom}}</td>
+                    <td>{{this.tel}}</td>
+                    <td>{{this.email}}</td>
+                    <a href="/edit">
+                      <td scope="col"><i class="fas fa-edit"></i></td>
+                    </a>
+                    <a href="/delete">
+                      <td scope="col"><i class="fas fa-trash-alt"></i></td>
+                    </a>
+                  </tr>
+                    {{/each}}
+                  {{else}}
+                  <tr>
+                    <td style="color:#c7105c; text-align: center;" colspan="6">Client inconnu</td>
+                  </tr>
+                  {{/if}}
+                </tbody>
+              </table>
+            </div>
+          </div>
+
+          <nav aria-label="basPage">
+            <ul class="pagination justify-content-center">
+              <li class="page-item disabled">
+                <button class="page-link" href="/baseClients" tabindex="-1" aria-disabled="true">Préc.</a>
+              </li>
+              <li class="page-item">
+                <a class="page-link" href="/baseClients">Suiv.</a>
+              </li>
+            </ul>
+          </nav>
+
+        </div>
+      </section>

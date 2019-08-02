@@ -1,0 +1,53 @@
+      <section id="panier">
+
+        <div class="container">
+
+          <div class="row">
+            <div class="col-md-12">
+              <h2>Votre panier</h2>
+            </div>
+          </div>
+          <div class="row">
+            <table id="cart" class="table table-hover table-condensed fondZone">
+              <thead>
+                <tr>
+                  <th style="width:50%">Produit</th>
+                  <th style="width:10%">Prix</th>
+                  <th style="width:8%">Quantité</th>
+                  <th style="width:22%" class="text-center">sous-total</th>
+                  <th style="width:10%"></th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td data-th="Product">
+                    <div class="row">
+                      <div class="col-sm-10">
+                        <h4 class="nomargin">Crème de jour</h4>
+                        <p>pot de 50 ml</p>
+                      </div>
+                    </div>
+                  </td>
+                  <td data-th="Price">42.00 €</td>
+                  <td data-th="Quantity">
+                    <input type="number" class="form-control text-center" value="1">
+                  </td>
+                  <td data-th="Subtotal" class="text-center">42.00</td>
+                  <td class="actions" data-th="">
+                    <button class="btn btn-sm btn-info btn-sm"><i class="fa fa-refresh"></i></button>
+                    <button class="btn btn-sm btn-danger btn-sm"><i class="fa fa-trash-o"></i></button>
+                  </td>
+                </tr>
+              </tbody>
+              <tfoot>
+                <tr>
+                  <td><a href="#" class="btn"><i class="fa fa-angle-left"></i>Suite des achats</a></td>
+                  <td colspan="2" class="hidden-xs"></td>
+                  <td class="hidden-xs text-center"><strong>Total 42.00 €</strong></td>
+                  <td><a href="#nosProduits" class="btn">Paiement<i class="fa fa-right"></i></a></td>
+                </tr>
+              </tfoot>
+            </table>
+          </div>
+        </div>
+      </section>
